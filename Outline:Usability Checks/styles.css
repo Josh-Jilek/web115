@@ -1,0 +1,78 @@
+body {
+    background: purple;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1060px;
+    min-width: 400px;
+    min-height: 500px;
+    margin: 5px auto;
+    background: lightslategray;
+    overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Francois One', sans-serif;
+    color: purple;
+    padding: 1em;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    color: purple;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+img {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    float: left;
+    width: 55%;
+}
+
+#blaze {
+    float: left;
+    width: 45%;
+    margin: 0 auto;
+}
+
+main,
+aside {
+    clear: both;
+    padding: 10px;
+}
+
+footer,
+header {
+    text-align: center;
+}
+
+img {
+    float: right;
+    padding: 15px;
+}
